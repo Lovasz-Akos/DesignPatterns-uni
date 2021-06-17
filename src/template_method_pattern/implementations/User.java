@@ -11,8 +11,12 @@ public class User extends Record{
 
 	@Override
 	public void BeforeSave() {
-		System.out.println("hooked back to user");
+		System.out.println("hooked back to user before save");
 	}
 	
+	/*@Override
+	public void AfterSave() {
+		System.out.println("hooked back to user after save");
+	}*/
 
 }
